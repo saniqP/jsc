@@ -16,7 +16,7 @@ Move `jscLib` in your project directory.
 
 ## Using
 
-`file`:
+`file:`
 ```python
 from libs.jscLib import jsc
 import getpass
@@ -41,4 +41,4 @@ int main() {
 )
 ```
 
-`output`: `hello from python to c++`
+`output:` `hello from python to c++`
