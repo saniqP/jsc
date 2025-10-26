@@ -7,11 +7,8 @@ This lib is starting c++ code in python
 ```zsh
 git clone https://github.com/saniqP/jsc.git
 cd jsc
-chmod +x install.sh
-./install.sh
 ```
 
-in directory jsc created directory `jscLib`.
 Move `jscLib` in your project directory.
 
 ## Using
