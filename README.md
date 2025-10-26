@@ -16,29 +16,20 @@ Move `jscLib` in your project directory.
 
 ## Using
 
-`file:`
 ```python
-from libs.jscLib import jsc
-import getpass
+from jscLib import jsc
 
 jsc.start_cpp_code(
-    code="""
+    code = """
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main() {
-    string from_lang = "python";
-    string to_lang = "c++";
-    
-    cout << "hello from " << from_lang << " to " << to_lang << endl;
+    cout << "hello saniqp" << endl;
 }
-""",
+""")
 
-    path_to_output_directory="/home/saniqp/test/",
+jsc.compile_cpp_file(path="/home/saniqp/.config/", name="test")
 
-    name_no_cpp="test"
-)
+jsc.start_cpp_binary_file(path="/home/saniqp/.config/test")
 ```
-
-`output:` `hello from python to c++`
