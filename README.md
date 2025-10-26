@@ -16,7 +16,8 @@ Move `jscLib` in your project directory.
 
 ## Using
 
-`file`: ```python
+`file`:
+```python
 from libs.jscLib import jsc
 import getpass
 
